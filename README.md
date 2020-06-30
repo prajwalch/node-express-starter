@@ -1,3 +1,3 @@
 # node-express-starter
 
-Starter pack for express with eslint (airbnb syle guide) and prettier.
+Starter pack for express with eslint (airbnb style guide) and prettier.
