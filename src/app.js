@@ -26,7 +26,7 @@ app.use(errorRoute);
 app.use((error, request, response, next) => {
   response.status(error.status || 500);
   if (error.shouldRedirect) {
-    response.render('error/error', {
+    response.render('error', {
       errorCode: error.status,
       errorMessage: error.message,
     });
