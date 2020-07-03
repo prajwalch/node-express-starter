@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=no"
+    />
+    <title>404 Not Found</title>
+
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/error.css" />
+  </head>
+  <bod>
+    <div class="container" id="error-container">
+      <div id="server-message">
+        <center>
+          <img
+            src="/images/wrong.svg"
+            alt="error 404"
+            width="100"
+            height="100"
+          />
+          <h1 id="error-code">ERROR <%= errorCode %></h1>
+          <p id="error-message"><%= errorMessage %></p>
+        </center>
+      </div>
+    </div>
+  </bod>
+</html>
